@@ -54,45 +54,75 @@ The management of the kindergarten is responsible for adding elements, and updat
 
 ## Use Case Details
 **Use Case:** Register
+
 **Participating Actors:** Guest - Major, System Database, Email confirmation system
+
 **Goal:** Create a profile in the platform.
+
 **Preconditions:** User must connect into the internet.
+
 **Postconditions:** The confirmation system informs the user that the account has been created.
+
 ![ioa3](https://i.imgur.com/8iv9iGq.png)
 
 **Use Case:** Add Element
+
 **Participating Actors:** Admin - Major, System Database 
+
 **Goal:** Create new element.
+
 **Preconditions:** User must be an Admin.
+
 **Postconditions:** The system informs the Admin that the element has been added.
+
 ![ioa4](https://i.imgur.com/7QPbts9.png)
 
 **Use Case:** Update Element
+
 **Participating Actors:** Admin - Major, System Database 
+
 **Goal:** Update existing element.
+
 **Preconditions:** User must be an Admin.
+
 **Postconditions:** The system informs the Admin that the element has been updated.
+
 ![ioa5](https://i.imgur.com/s6WF614.png)
 
 **Use Case:** View Element
+
 **Participating Actors:** Admin – Major, Member - Major, System Database 
+
 **Goal:** View elements.
+
 **Preconditions:** User must be an Admin or a Member.
+
 **Postconditions:** The system displays the element information.
+
 ![ioa6](https://i.imgur.com/FylB1Qb.png)
 
 **Use Case:** Active Element
+
 **Participating Actors:** Member - Major, System Database 
+
 **Goal:** Active elements.
+
 **Preconditions:** User must be a Member.
+
 **Postconditions:** The system updates the action log and the Member points.
+
 ![ioa7](https://i.imgur.com/vp3b0T4.png)
 
 **Use Case:** Confirm registration
+
 **Participating Actors:** Confirmation System – major, Guest
+
 **Goal:** Confirm Guest registration.
+
 **Preconditions:** User must be a Guest.
+
 **Postconditions:** The Guest becomes a Member/Admin.
+
 ![ioa8](https://i.imgur.com/J1fL0PX.png)
 
 
