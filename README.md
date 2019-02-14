@@ -23,9 +23,13 @@ Hope you will find it useful, enjoy!
 3)	Download the zip file that contains the application's source code.
 4)	Open new project in Eclipse and drag the source files you just download. 
 Right click on the *new project* --> *Build Path* --> *Configure Build Path* --> *Source* --> Change the source folders to:
+
 •	Src/main/java
+
 •	Src/main/resources
+
 •	Src/test/java
+
 5)	Download Spring support files for Web servers, HTTP servers and IoC.
 6)	Download Spring support files for MongoDB.
 7)	Download Spring support files for Mail integration.
